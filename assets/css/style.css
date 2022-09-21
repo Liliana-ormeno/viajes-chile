@@ -1,24 +1,50 @@
+body {
+	background-color: black;
+}
+
+
 .logo img {
-    width: 30px;
+	width: 30px;
 	height: 30px;
 }
 
 .menu-header {
-    background-color: transparent;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
 }
 
+header {
+    color: white
+}
+
+
 .card {
-    background-color: lightseagreen;
+	background-color: lightseagreen;
 }
 
 .card-text {
-    color: white;
+	color: white;
 }
 
 .card-title {
-    color:white
+	color:white;
 }
 
 .container {
-background-color: black;
+	background-color: black;
+	color: white;
+}
+
+.titulo-presentacion {
+	color: white;
+	text-align: center;
+}
+
+.parrafos {
+	display: inline-flex;
+}
+
+.titulo-contacto {
+text-align: center;
 }
