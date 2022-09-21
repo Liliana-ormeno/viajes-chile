@@ -12,6 +12,7 @@ body {
 	background-color: transparent;
 	position: absolute;
 	top: 0;
+    color: white;
 }
 
 header {
@@ -41,10 +42,30 @@ header {
 	text-align: center;
 }
 
+.icon {
+background-color: lightseagreen;
+text-align: center;
+}
+
 .parrafos {
 	display: inline-flex;
 }
 
-.titulo-contacto {
+.h2 {
 text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.fa-brands {
+    font-size: xx-large;
+}
+
+.logo-footer {
+    text-align: center;
+    font-size: x-large;
 }
