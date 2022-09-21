@@ -6,3 +6,19 @@
 .menu-header {
     background-color: transparent;
 }
+
+.card {
+    background-color: lightseagreen;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-title {
+    color:white
+}
+
+.container {
+background-color: black;
+}
