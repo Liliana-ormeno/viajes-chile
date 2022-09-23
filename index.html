@@ -45,12 +45,15 @@
 				</button>
 			</div>
 		</div>
-		<div class="menu-header col-12">
-			<div class="row navbar navbar-expand-lg bg-successverde blanco p-1">
+
+		<div class="menu-header col-12 p-2">
+			<div class="row navbar navbar-expand-lg  blanco p-1">
 				<div class="col-3">
 					<div class="logo">
 						<img src="assets/img/viajes.png" alt="logo white">
-						<p>Viajes Chile</p>
+						<div class="viajes-chile p-3">
+							<p>Viajes Chile</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-9">
@@ -66,26 +69,34 @@
 									<a class="nav-link" href="#">Inicio</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Quienes somos</a>
+									<a class="nav-link" href="#scrollspyHeading1">Quienes somos</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link " href="#">Destacados</a>
+									<a class="nav-link " href="#scrollspyHeading2">Destacados</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link " href="#">Contacto</a>
+									<a class="nav-link " href="#scrollspyHeading3">Contacto</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</header>
 
+	<a class="ir-arriba"  javascript:void(0) title="Volver arriba" data-bs-toggle="tooltip"
+	data-bs-placement="right" data-bs-title="Volver arriba">
+		<span class="fa-stack">
+			<i class="fa fa-circle fa-stack-2x"></i>
+			<i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+		</span>
+	</a>
+
 	<div class="container">
-		<div class="quienes-somos">
+		<div class="quienes-somos p-5">
 			<div class="titulo-presentacion">
-				<h1>¿QUIENES SOMOS?</h1>
+				<h1 id="scrollspyHeading1">¿QUIENES SOMOS?</h1>
 			</div>
 			<hr>
 			<div class="parrafos row align-items-center">
@@ -94,17 +105,18 @@
 						<i class="fa-solid fa-plane"></i>
 					</div>
 					<P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla nostrum beatae alias
-						recusandae eius, excepturi assumenda tenetur odio voluptate quisquam quas numquam, incidunt pariatur
-						eligendi illoanimi repudiandae asperiores?</P>
+						recusandae eius, excepturi assumenda tenetur odio voluptate quisquam quas numquam, incidunt
+						pariatur eligendi illoanimi repudiandae asperiores?</P>
 				</div>
 
 				<div class="col">
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et ab consectetur ex tempora culpa
-						sunt? Praesentium maiores odit voluptatum aspernatur consectetur tempora molestiae repellendus rerum
+						sunt? Praesentium maiores odit voluptatum aspernatur consectetur tempora molestiae repellendus
+						rerum
 						perferendis vero! Ipsa, vitae harum.</p>
-						<div class="icon">
-							<i class="fa-solid fa-mountain"></i>
-						</div>
+					<div class="icon">
+						<i class="fa-solid fa-mountain"></i>
+					</div>
 				</div>
 
 				<div class="col">
@@ -120,9 +132,9 @@
 
 		</div>
 
-		<div class="destacados toggle">
+		<div class="destacados toggle p-5">
 			<div class="h2">
-				<h2>DESTACADOS</h2>
+				<h2 id="scrollspyHeading2">DESTACADOS</h2>
 			</div>
 			<hr>
 			<div class="row row-cols-1 row-cols-md-4 g-4">
@@ -133,7 +145,7 @@
 							<h5 class="card-title">Lorem ipsum dolor sit amet</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
 								inventore. Tempora similique ipsum eligendi assumenda dolor nobis iste repudiandae
-								aliquam officia maxime, sed, laudantium odio. Sapiente praesentium id ducimus minus?</p>
+								aliquam officia maxime, sed, laudantium odio. Sapiente praesentium id</p>
 						</div>
 					</div>
 				</div>
@@ -155,7 +167,7 @@
 							<h5 class="card-title">Sed do ejusmod tempor incididunt ut labore</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
 								impedit accusamus quae aliquid adipisci aliquam vero molestiae, totam ab libero eius
-								distinctio sequi, iusto laudantium. Asperiores rerum pariatur reiciendis sint.</p>
+								distinctio sequi, iusto laudantium. Asperiores.</p>
 						</div>
 					</div>
 				</div>
@@ -166,48 +178,48 @@
 							<h5 class="card-title">Ut enim ad minim veniam</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
 								corrupti architecto officia amet facere perspiciatis eveniet accusantium nulla deleniti
-								reprehenderit. Ex provident odio soluta repudiandae, similique neque</p>
+								reprehenderit. Ex provident odio soluta repudiandae</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="contacto">
+		<div class="contacto p-5">
 			<div class="h2">
-				<h2>CONTACTO</h2>
+				<h2 id="scrollspyHeading3">CONTACTO</h2>
 			</div>
 			<hr>
 			<form>
 				<div class="mb-3">
-				  <label for="exampleInputName" class="form-label">Nombre</label>
-				  <input type="name" class="form-control" id="exampleInputName">
+					<label for="exampleInputName" class="form-label">Nombre</label>
+					<input type="name" class="form-control" id="exampleInputName">
 				</div>
 				<div class="mb-3">
-				  <label for="exampleInputSubject" class="form-label">Asunto</label>
-				  <input type="subject" class="form-control" id="exampleInputSubject">
+					<label for="exampleInputSubject" class="form-label">Asunto</label>
+					<input type="subject" class="form-control" id="exampleInputSubject">
 				</div>
 				<div class="mb-3">
 					<label for="exampleInputMessage" class="form-label">Mensaje</label>
 					<input type="message" class="form-control" id="exampleInputMessage">
-				  </div>
-				
+				</div>
+
 				<button type="submit" class="btn btn-primary">Enviar</button>
-			  </form>
+			</form>
 		</div>
 	</div>
 
 
-	<footer class="row col-12">
-<div class="logo-footer col-8">
-	<p>VIAJES CHILE</p>
-</div>
-<div class="col-4">
-	<i class="fa-brands fa-github"></i>
-	<i class="fa-brands fa-linkedin"></i>
-	<i class="fa-brands fa-square-twitter"></i>
-	<i class="fa-brands fa-square-facebook"></i>
-</div>
+	<footer class="footer row col-12 p-3">
+		<div class="logo-footer col-8">
+			<p>VIAJES CHILE</p>
+		</div>
+		<div class="col-4">
+			<a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+			<a href="https://cl.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="https://twitter.com "><i class="fa-brands fa-square-twitter"></i></a>
+			<a href="https://m.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+		</div>
 	</footer>
 
 

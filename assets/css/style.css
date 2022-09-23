@@ -1,27 +1,67 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: black;
+	font-family: Cabin;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+}
+
+.logo {
+	display: inline-flex
 }
 
 
-.logo img {
-	width: 30px;
-	height: 30px;
+.background {
+	z-index: 1;
 }
 
 .menu-header {
 	background-color: transparent;
 	position: absolute;
 	top: 0;
-    color: white;
+	z-index: 2;
+}
+
+.menu-header a {
+	color: #fff;
 }
 
 header {
-    color: white
+	color: white
 }
 
+.ir-arriba{
+	display:none;
+	background-repeat:no-repeat;
+	font-size:20px;
+	color:black;
+	cursor:pointer;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:2;
+  }
+
+.quienes-somos {
+	padding: 40px;
+}
+
+.destacados {
+	padding: 40px;
+}
 
 .card {
 	background-color: lightseagreen;
+}
+
+.card img {
+	height: 180px;
 }
 
 .card-text {
@@ -29,7 +69,7 @@ header {
 }
 
 .card-title {
-	color:white;
+	color: white;
 }
 
 .container {
@@ -43,8 +83,8 @@ header {
 }
 
 .icon {
-background-color: lightseagreen;
-text-align: center;
+	background-color: lightseagreen;
+	text-align: center;
 }
 
 .parrafos {
@@ -52,20 +92,48 @@ text-align: center;
 }
 
 .h2 {
-text-align: center;
+	text-align: center;
 }
 
-footer {
-    padding: 20px;
-    background-color: lightseagreen;
-    color: white;
+/* footer {
+	background-color: lightseagreen;
+	color: white;
+	--bs-gutter-x: 0;
+} */
+
+.footer {
+	background-color: lightseagreen;
+	color: white;
+	--bs-gutter-x: 0;
 }
 
 .fa-brands {
-    font-size: xx-large;
+	font-size: xx-large;
+	color: white;
 }
 
 .logo-footer {
-    text-align: center;
-    font-size: x-large;
+	text-align: center;
+	font-size: x-large;
+}
+
+/*versión mobile*/
+
+@media screen and (max-width: 600px) {
+	.navbar-toggler {
+		float: right;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	.quienes-somos {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.quienes-somos {
+		display: none;
+	}
 }
